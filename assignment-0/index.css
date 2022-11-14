@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin:10px;
+}
+main {
+    width: 460px;
+    margin: 50px auto;
+    border: 1px solid;
+}
+.img-container {
+    width: 400px;
+    margin: 0px auto;
+    /* border: 1px solid; */
+    text-align: center;
+}
+#para {
+    margin: 10px;
+}
+.btn-container {
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#reset, #btn {
+    display: none;
+    margin: 10px;
+    padding: 0.2em 0.5em; 
+}
+
+.para {
+    display: none;
+    text-align: center;
+}

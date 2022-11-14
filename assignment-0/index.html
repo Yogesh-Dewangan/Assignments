@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>I Am Not Robot</title>
+</head>
+<body>
+    <main>
+        <h3>Please click on the identical tiles to verify that you are not a robot</h3>
+        <div class="img-container">
+            <img data-ns-test="img1" src="" alt="img1">
+            <img data-ns-test="img2" src="" alt="img2">
+            <img data-ns-test="img3" src="" alt="img3">
+        </div>
+        <div class="img-container duplicate-img">
+            <img data-ns-test="img4" src="" alt="img4">
+            <img data-ns-test="img5" src="" alt="img5">
+            <!-- <img data-ns-test="img1" src="" alt="img6"> -->
+        </div>
+        <p class="para" id="para1">You are a human. Congratulations!</p>
+        <p class="para" id="para2">We can't verify you as a human. You selected the non-identical tiles.</p>
+
+        <div class="btn-container">
+            <button id="reset">Reset</button>
+            <button id="btn">Verify</button>
+        </div>
+    </main>
+</body>
+<script src="./index.js" type="module"></script>
+</html>
